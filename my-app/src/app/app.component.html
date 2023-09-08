@@ -1,13 +1,5 @@
-<div class="template  h-auto w-[vw]">
-    <div class="m-5 justify-end space-x-3">
-        <button class="rounded-full hover:shadow-xl border-2 inline-block
-        duration-200 border-slate-600  h-10 w-auto px-5"> 
-        <i class="las la-moon text-3xl"></i></button>
-        <button class="rounded-full hover:shadow-xl border-2 inline-block
-         duration-200 border-slate-600 h-10 w-auto px-5">
-         <i class="las la-language text-3xl"></i> </button>
-    </div>
-    <div class="container flex justify-center bg-gray-50 space-x-16 mb-5 px-3 pt-20">
+<div class="template h-[100vh] bg-cover bg-center ">
+      <div class="bg-slate-50 flex first-block ma-marge shadow-md ">
         <div class="bloc-left">
           <h1 class="text-5xl font-bold text-slate-600 my-name">Benjamin OHANDJA</h1>
           <h2 class="text-orange-600 font-bold text-3xl identity italic">Sofware developper <i class="las la-user-secret text-5xl text-orange-600"></i></h2>
@@ -17,15 +9,15 @@
               et l'art architectural dans sa globalité. <br>
             J’ai un intérêt prononcé pour les expérimentations,
             <br> qui sont pour moi une maniere d'éxprimer ma créativité.</p>
-            <div class=" mt-7 flex  space-x-6 mb-10 pt-3" >
-            <a href="#projet" class="inline-block bg-orange-600 border-2 duration-300 border-orange-600 h-11
-            hover:border-x-2 hover:bg-orange-500
-            rounded-full text-white  px-10 py-2 w-auto">VOIR MES PROJETS</a>
+            <div class=" see mt-7 flex  space-x-6 mb-10 pt-80" >
+            <a href="#projet" class="inline-block bg-orange-600 border-2 duration-300 border-orange-600 
+            hover:border-x-2 hover:bg-orange-500 h-12
+            rounded-full text-white  px-10 btn  w-auto">VOIR MES PROJETS</a>
             <a href="#aventure" class="inline-block  bg-slate-600 border-2 
-            rounded-full text-white  px-10 pt-3  w-auto h-12 duration-300 hover:bg-gray-800">COMMENCER L'AVENTURE</a>
+            rounded-full text-white  px-10 pt-3 btn  w-auto h-12 duration-300 hover:bg-gray-800">COMMENCER L'AVENTURE</a>
             </div>
-            <p class="text-slate-600 mb-6">Take a look of my project</p>
-            <div class="link-project space-x-2 pb-5">
+            <p class="text-slate-600 mb-6  take-a-look">Take a look of my project</p>
+            <div class="link-project space-x-2 pb-5 sociaux">
                <button class="rounded-full hover:shadow-xl border-2
                duration-200 border-slate-600  h-10 w-auto px-5 inline-block" href="in/benjamin-ohandja-358199241"> <i class=" text-blue-600 lab la-linkedin text-xl ">
                </i> Linkedin </button>
@@ -39,24 +31,23 @@
             </div>
 
         </div>
-        <div class=" relative bg-purple-500 box-profil w-[500px] bg-opacity-20 bg-gradient  h-[500px]">
-            <div class=" bloc-rigth img-box w-[490px] h-auto ">
-                <img src="../assets/profil.jpg" alt="profil" class=" w-[100%] rounded-full ">
-            </div>
-        </div>
-        
+        <div class=" box-profil w-[600px] bg-opacity-20   h-[500px] ">
+          <div class=" bloc-rigth img-box w-full h-auto  relative">
+              <img src="../assets/profil.jpg" alt="profil" class=" w-[100%] rounded-2xl photo ">
+          </div>
+      </div>
     </div>
     <!-- // debut section des projets -->
-    <div class=" bg-slate-50 text-center mx-10 shadow-lg" id="projet">
-        <h2 class="text-slate-600 font-bold  pt-5 text-3xl"> Mes projets et realisations !</h2>
-        <p class="text-slate-600 pt-5 pb-5">Découvrez les différents projets sur lesquels j'ai eu 
+    <div class=" bg-slate-50 text-center projet mx-10 ma-marge shadow-md " id="projet ">
+        <h2 class="text-slate-600 font-bold text-3xl pt-5"> Mes projets et realisations !</h2>
+        <p class="text-slate-600 pt-5 pb-5 para">Découvrez les différents projets sur lesquels j'ai eu 
             à travailler, en entreprise, en Freelance, mes projets personels, <br>
              et ceux que je met à la disposition de toute la communauté DEV .</p>
 
-  <div class="container-project border rounded-lg h-auto px-3">
+  <div class="container-project border rounded-lg h-auto px-3 para">
                     <!--Tabs navigation-->
     <ul
-    class="mb-5 flex list-none flex-row flex-wrap border-b-0 pl-0"
+    class="mb-5 flex list-none flex-row flex-wrap border-b-0 pl-0 para"
     role="tablist"
     data-te-nav-ref>
         <li role="presentation" class="flex-grow basis-0 text-center">
@@ -124,7 +115,7 @@
                 role="tabpanel"
                 aria-labelledby="tabs-home-tab02"
                 data-te-tab-active>
-                <div class="flex flex-wrap space-x-2 space-y-2 text-center">
+                <div class="flex flex-shrink space-x-2 space-y-2 text-center">
                     <div class="carte relative w-[350px] h-auto shadow-lg border rounded-xl ease-in duration-300">
                         <img src="../assets/foodDb.PNG" alt="foodDb" class=" h-[300px] w-[100%] brightness-100 hover:brightness-50 ">
                         <h2 class="text-orange-600 text-sm font-mono">FoodDB</h2>
@@ -197,9 +188,9 @@
         ===========================================================================-->
         <!--Tabs navigation-->
       <!-- // debut section des projets -->
-    <div class="border-2 bg-slate-50 text-center mx-10 shadow-lg my-5">
+    <div class="border-2 bg-slate-50 text-center mx-10 shadow-md  my-5 ma-marge">
       <h2 class="text-slate-600 font-bold  pt-5 text-3xl"> Mes outils de travail !</h2>
-      <p class="text-slate-600 pt-5 pb-5">Pour vaincre le dragon et sauver la princesse, le chevalier a besoin d'une série d'artefacts.
+      <p class="text-slate-600 pt-5 pb-5 para">Pour vaincre le dragon et sauver la princesse, le chevalier a besoin d'une série d'artefacts.
         <br> Pour surmonter les objectifs, je dispose moi aussi d'un arsenal toujours plus grand !</p>
         <!--Tabs navigation-->
 <ul
@@ -564,14 +555,14 @@ Expert
   </div>
 </div>
 <div
-  class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
+  class="hidden opacity-0 transition-opacity para duration-150 ease-linear data-[te-tab-active]:block"
   id="tabs-contact01"
   role="tabpanel"
   aria-labelledby="tabs-contact-tab01">
   
-  <div class="containeur grid grid-cols-2 space-x-5 ">
+  <div class="containeur grid grid-cols-2 space-x-5 para ">
     <div class="overflow-auto pr-8">
-      <h3 class="ident-8 text-2xl text-[#787878] font-bold pl-5">Je n'aimais pas vraiment ça... maintenant je comprends que j'avais tort</h3>
+      <h3 class="ident-8 text-2xl text-[#787878] font-bold pl-5 para">Je n'aimais pas vraiment ça... maintenant je comprends que j'avais tort</h3>
       <p class="indent-8 text-xl pt-10 text-[#787878] pl-5">   Créer des PWA ou des WEB App attractives et optimisées 
         Ils me permettent d'exprimer ma créativité et de la transformer en quelque chose de concret.
          Ils sont un peu mes outils de prédilection. Je les utilise pour intégrer les interfaces de grands projets,
@@ -665,20 +656,20 @@ Expert
   
      
     </div>
-    <section class="border-2 bg-slate-50 text-center mx-10 shadow-lg " id="aventure">
-      <h2 class="text-3xl pt-5 font-bold text-slate-600 my-name"> Benjamin ne fait pas que coder!</h2>
+    <section class="border-2 bg-slate-50 text-center mx-10 shadow-md para" id="aventure para  ma-marge">
+      <h2 class="text-3xl pt-5 font-bold text-slate-600 my-name  para"> Benjamin ne fait pas que coder!</h2>
       <p class="text-xl py-10 text-slate-600 my-name indent-8">Nous avons tendance à croire au mythe du geek programmeur qui est fermé dans son monde de code.
         <br> Je suis ici pour briser ce mythe car, en plus de coder, je suis aussi... !</p>
         <div>
           <!-- Section: Design Block -->
-  <section class="background-radial-gradient mb-40">
+  <section class="background-radial-gradient mb-40 para ma-marge">
     <!-- Jumbotron -->
     <div class="px-6 pt-12 pb-1 text-center md:px-12 lg:text-left">
       <div class="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
         <div class="grid items-center gap-12 lg:grid-cols-2">
           <div class="mt-12 lg:mt-0">
             <h1 class="mt-0 mb-16 text-xl font-bold tracking-tight md:text-6xl xl:text-5xl text-[hsl(218,81%,95%)]">
-              Je suis aussi un artiste de l'architure moderne <br /><span class="text-orange-400 text-2xl"> Allons-y explorez la divinité de mon imagination. <a href="https://www.facebook.com/profile.php?id=100091637274382"> <i class="lab la-facebook text-blue-500 text-xl"></i></a></span>
+              Je suis aussi un artiste de l'architure moderne <br /><span class="text-orange-400 text-2xl"> Allons-y explorer la divinité de mon imagination. <a href="https://www.facebook.com/profile.php?id=100091637274382"> <i class="lab la-facebook text-blue-500 text-xl"></i></a></span>
             </h1>
             <a class="mb-2 inline-block rounded-full bg-slate-500 px-5 pt-1 pb-1 text-sm font-medium uppercase hover:border-2 hover:text-orange-400
              border-orange-400 border leading-normal text-white shadow-[0_4px_9px_-4px_#cbcbcb] 
@@ -703,7 +694,7 @@ Expert
             <img src="../assets/btp.jpg"
               class="w-full rounded-lg shadow-lg dark:shadow-black/20" alt="" />
           </div>
-          <span class=" text-sm text-gray-400 text-right"> l'art de se déplacé en esprit dans un plan euclidien pour générer des oeuvres d'Art...</span>
+          <span class=" text-sm text-gray-400 text-right"> l'art de se déplacer en esprit dans un plan euclidien pour générer des oeuvres d'Art...</span>
         </div>
       </div>
     </div>
@@ -714,7 +705,7 @@ Expert
      </section>
   <!--Footer-->
 <footer
-class="bg-neutral-200  text-center text-gray-500 dark:bg-neutral-600 mt-5
+class="bg-neutral-200  text-center para  text-gray-500 dark:bg-neutral-600 mt-5
  dark:text-neutral-200 lg:text-left">
 <!-- Social icons -->
 <div class="border-b-2 border-neutral-200 p-6 dark:border-neutral-500">

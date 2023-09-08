@@ -1,18 +1,57 @@
-*, ::after, ::before.template{
+*, ::after, ::before, .template{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    align-items: center;
     padding-left: 5px;
     padding-right: 5px;
+    /* background-image: url(../assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:0.1;
+    opacity:1 ; */
 
 }
+.first-block {
+    padding-top: 40px;
+}
+.para{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
-.container{
+/* .container{
     margin: 15px auto;
-}
+} */
 .box-profil{
-    border-radius: 92% 8% 90% 10% / 13% 84% 16% 87%  ;
+    width: 650px;
+    padding-top: 10px;
+    max-width: 500px;
+    min-width: 320px;
+    
 }
+.projet{
+    padding-top: 40px;
+}
+.see{
+    padding-top: 45px;
+}
+.sociaux{
+    padding-bottom: 30px;
+
+}
+.take-a-look{
+    padding-top: 100px;
+}
+.btn{
+    line-height: 3rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ma-marge{
+    margin-bottom: 40px;
+}
+
 .background-radial-gradient {
     background-color: hsl(218, 41%, 15%);
     background-image: radial-gradient(650px circle at 0% 0%,
@@ -27,4 +66,25 @@
         hsl(218, 41%, 20%) 75%,
         hsl(218, 41%, 19%) 80%,
         transparent 100%);
+  }
+/* ========================media querries responsive design========================*/
+  @media screen and (max-width: 822px) {
+
+    .first-block{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        position: relative;
+    }
+    .photo{
+        width: 100%;
+    }
+
+  }
+  @media screen and (max-width:320px){
+
+    .photo{
+        width: 70%;
+    }
+   
   }
