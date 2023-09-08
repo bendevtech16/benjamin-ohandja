@@ -10,8 +10,23 @@
     background-size: cover;
     z-index:0.1;
     opacity:1 ; */
+    
 
 }
+
+.template {
+    animation: animateBg 5s linear infinite;
+    background-image: linear-gradient(90deg,#bfc7bf,#b89f87,#db5779,#e6b61a,#ff8000);
+    background-size: 400% 100%;
+  }
+  @keyframes animateBg {
+    0% { background-position: 0% 0%; }
+    50% { background-position: 67% 30%; }
+    90% { background-position: 34% 23%; }
+    100% { background-position: 100% 0%; }
+  }
+  
+
 .first-block {
     padding-top: 40px;
 }
